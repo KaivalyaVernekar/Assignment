@@ -423,4 +423,21 @@ small {
   .info-subcard p {
     margin-top: 0;
   }
+
+  .error {
+    display: none;
+  }
+
+  header {
+    position: fixed;
+    left: 70px;
+    top: 0;
+    right: 0;
+    margin-bottom: 80px;
+    background-color: var(--main-color);
+  }
+
+  main {
+    margin-top: 80px;
+  }
 }
